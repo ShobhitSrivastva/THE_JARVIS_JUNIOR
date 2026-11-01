@@ -1,0 +1,22 @@
+# Build files
+build/
+cmake-build-*/
+
+# Executables
+jarvis
+
+# Personal memory
+memory.json
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

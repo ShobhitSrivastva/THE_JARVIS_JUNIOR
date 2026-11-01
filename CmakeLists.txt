@@ -1,0 +1,18 @@
+
+cmake_minimum_required(VERSION 3.16)
+
+project(JarvisAI LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(CURL REQUIRED)
+find_package(nlohmann_json REQUIRED)
+
+add_executable(jarvis src/main.cpp)
+
+target_link_libraries(jarvis
+    PRIVATE
+    CURL::libcurl
+    nlohmann_json::nlohmann_json
+)
