@@ -21,41 +21,11 @@ The project focuses on three engineering principles:
 - **Native performance** — Build the application using C++17.
 
 ## 02 / System Architecture
-
-```text
-              USER INPUT
-                   |
-                   v
-          +------------------+
-          |   C++ Assistant  |
-          |   Core Engine    |
-          +------------------+
-                   |
-          +--------+--------+
-          |                 |
-          v                 v
-   Conversation         Memory
-     Context          (JSON File)
-          |                 |
-          +--------+--------+
-                   |
-                   v
-          +------------------+
-          |    libcurl       |
-          |   HTTP Client    |
-          +------------------+
-                   |
-                   v
-          +------------------+
-          |  Ollama Runtime  |
-          |                  |
-          | Qwen 2.5 1.5B    |
-          +------------------+
-                   |
-                   v
-             AI RESPONSE
-```
-
+<p align="center">
+  <img src="jarvis-architecture.png"
+       alt="Jarvis Junior System Architecture"
+       width="100%">
+</p>
 ## 03 / Technology Stack
 
 | Component | Technology |
