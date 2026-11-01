@@ -22,7 +22,7 @@ The project focuses on three engineering principles:
 
 ## 02 / System Architecture
 <p align="center">
-  <img src="./The%20Jarvis%20Junior%20Ai%20Architecture.png"
+  <img src="./The%20Jarvis%20Junior%20AI%20Architecture.png"
        alt="The Jarvis Junior AI Architecture"
        width="100%">
 </p>
